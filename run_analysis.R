@@ -42,5 +42,5 @@ means = dcast(melted , merged + label ~ variable, mean)
 
 #5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-write.table(means, file="~/data/data.csv/UCI HAR Dataset/tidy_data.txt")
+write.table(means, file="~/data/data.csv/UCI HAR Dataset/tidy_data.txt", row.name=FALSE)
 
