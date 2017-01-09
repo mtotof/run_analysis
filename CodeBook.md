@@ -7,4 +7,6 @@ Additional information on the data can be found here: http://archive.ics.uci.edu
 A copy of the script utilized for analysis is in: run_analysis.R
 Data was loaded, test and training data was merged and labelled, and a smaller dataset was created which abstracted only the mean and standard deviation variables.
 
+Variables: tBodyAcc, tGravityAcc, tBodyAccJerk, tBodyGyro, tBodyGyroJerk, tBodyAccMag, tBodyAccJerkMag, tBodyGyroMag, tBodyGyroJerkMag, fBodyAcc, fBodyAccJerk, fBodyGyro, fBodyAccMag, fBodyBodyAccJerkMag, fBodyBodyGyroMag, fBodyBodyGyroJerkMag. All three X, Y, Z directions are included.
+
 Data will output to the ./UCI HAR Dataset/tidy_data.txt
